@@ -1,0 +1,7 @@
+Update torchvision to run main. Got error .Resize did not exist.
+
+img_aug.py Augmentor.Pipeline is not sending the augmented images to ./datasets/cub200_cropped/train_cropped_augmented
+
+in settings.py i have changed from train_dir = data_path + 'train_cropped_augmented/' to train_dir = data_path + 'train_cropped/'.
+
+main.py does not run from line 140 and forward, can't figure out why.
