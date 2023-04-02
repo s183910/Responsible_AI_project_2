@@ -1,7 +1,7 @@
 ## import the necessary packages
 from collections import namedtuple
 import numpy as np
-import cv2
+import cv2  # pip install opencv-python
 
 
 ## define the `Detection` object
